@@ -99,6 +99,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  margin-left: 22px;
 }
 
 .prj-title {
@@ -123,7 +124,7 @@ span {
 }
 
 .project-cards:hover span {
-  display: inline;
+  display: inline-block;
   transition: transform(0.3s ease-out);
   /* height: 40px; */
 }
