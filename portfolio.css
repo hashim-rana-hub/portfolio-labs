@@ -178,6 +178,9 @@ span {
 }
 
 @media screen and (max-width: 600px) {
+  .project-grid {
+  margin-left: 0;
+  }
   .project-grid a {
     margin: 10px auto;
   }
@@ -240,4 +243,11 @@ span {
   #social-links a {
     margin-bottom: 20px;
   }
+}
+
+
+@media screen and (max-width: 400px) {
+.prj-img {
+  width: 100%;
+}
 }
